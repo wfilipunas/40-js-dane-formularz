@@ -1,0 +1,4 @@
+body{background: orange; text-align: center;}
+button{width: 150px; height: 30px; background: yellow; color: black;}
+p{font-weight: bold;}
+p:first-child{font-weight: normal;}
