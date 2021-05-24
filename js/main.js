@@ -1,16 +1,16 @@
 document.querySelector('button').onclick = function dane() {
-    let imie = prompt('Podaj imię:');
-    let nazwisko = prompt('Podaj nazwisko:');
-    let telefon = prompt('Podaj telefon:');
+    let imie = document.getElementById('input-name');
+    let nazwisko = document.getElementById('input-surname');
+    let telefon = document.getElementById('input-phone');
     
     let first = document.getElementById('name');
-    first.textContent = imie.valueOf(0);
+    first.textContent = imie.value;
     
     let second = document.getElementById('surname');
-    second.textContent = nazwisko.valueOf(0);
+    second.textContent = nazwisko.value;
     
     let third = document.getElementById('phone');
-    third.textContent = telefon.valueOf(0);
+    third.textContent = telefon.value;
 }
 
 
